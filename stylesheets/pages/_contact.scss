@@ -1,0 +1,32 @@
+#map{
+    margin: 0 auto;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
+
+*:focus {
+    outline: 0;
+}
+
+
+.dim:hover{
+  margin-top:5px;
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+
+#container {
+  margin:auto;
+  width:950px;
+  background-color:white;
+  margin-top: 30px;
+  margin-bottom:50px;
+  overflow:auto;
+}
+
+
+
+

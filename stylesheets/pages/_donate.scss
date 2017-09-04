@@ -1,0 +1,70 @@
+
+.donation-box {
+    text-align: center;
+    h2 {
+        padding-bottom: 50px;
+        background-color: #fff;
+        text-transform: none;
+        font-size: 70px;
+    }
+    form {
+        margin: 0 auto;
+        padding: 50px 0;
+        vertical-align: middle;
+        border-top: 3px solid #555;
+        width: 50%;
+    }
+    input[type=text] {
+        padding: 10px;
+        border: 3px solid #555;
+        font-size: 16px;
+    }
+    input[type=submit] {
+        background-color: #74E388;
+        border: 3px solid #74E388;
+        padding: 2px 5px;
+        width: 50%;
+        cursor: pointer;
+        font-size: 30px;
+        font-weight: 600;
+        vertical-align: middle;
+    }
+}
+
+.current-projects {
+    p {
+        padding-left: 30px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    .row {
+        border-bottom: 3px solid #555;
+        &:last-child {
+            border-bottom: none;
+        }
+        .column {
+            &:first-child {
+                padding-right: 30px;
+            }
+            &:last-child {
+                text-align: right;
+                width: 39%;
+            }
+        }
+    }
+}
+
+.why-donate {
+    margin: 60px 0;
+}
+
+.current-projects, .why-donate {
+  h2 {
+      text-transform: uppercase;
+      margin: 40px 0;
+      padding: 20px 0;
+      text-align: center;
+      background-color: #ddd;
+  }
+}

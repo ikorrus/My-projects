@@ -1,0 +1,26 @@
+footer{
+    display: -webkit-flex;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.footer-nav{
+    padding-left: 200px;
+}
+
+.footer-link{
+    text-transform: uppercase;
+    font-size: 25pt;
+}
+
+.copyright{
+    padding-left: 500px;
+    font-size: 15pt;
+}
+
+.copyright p {
+    margin-top: 0;
+}

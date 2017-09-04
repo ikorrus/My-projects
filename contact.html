@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/setup.css">
+    <link rel="stylesheet" type="text/css" href="css/hayden.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="content-header">
+                <img class="logo-pic" src="images/logo.png" height="100px">
+                <h1>C.A.V.S</h1>
+                <nav>
+                    <a href="index.html" class="nav-link">home</a>
+                    <div class="dropdown">
+                        <button onmouseover="myFunction()" class="dropbtn">students</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="student-artwork.html">student artwork</a>
+                            <a href="alumni.html">alumni</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown2">
+                        <button onmouseover="myFunction2()" class="dropbtn2">news & events</button>
+                        <div id="myDropdown2" class="dropdown-content2">
+                            <a href="news-events.html">news & events</a>
+                            <a href="news-events.html">calander</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown3">
+                        <button onmouseover="myFunction3()" class="dropbtn3">about</button>
+                        <div id="myDropdown3" class="dropdown-content3">
+                            <a href="courses.html">courses</a>
+                            <a href="contact.html">contact us</a>
+                            <a href="info.html">info</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="donate">
+                    <a href="donate.html" class="donate-btn">donate</a>
+                </div>
+            </div>
+            <div class="search-header">
+                <form class="search-bar">
+                    <input id="search-content" type="text" name="search-content" placeholder="&#128269; Search">
+                </form>
+            </div>
+        </header>
+
+        <div class="holder">
+            <div class="contact-info">
+                <ul>
+                    <li class="contact-info--address">Address</li>
+                    <li class="contact-info--address">77 Massachusettes Ave </li>
+                </ul>
+                <ul>
+                    <li class="contact-info--number">Contact number: 0800-83-83-83</li>
+                    <li class="contact-info--number">Contact email: CAVS@mit.com </li>
+                </ul>
+                <ul>
+                    <li class="form"> <a href="#contact-form">Contact form </li></a>
+                </ul>
+            </div>
+            <div id="map"></div>
+            <style>
+                #map {
+                    height: 800px;
+                    width: 100%;
+                }
+            </style>
+
+            <script>
+                function initMap() {
+                    var uluru = { lat: 42.360067, lng: -71.094096 };
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 15,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmV3BmPVjg1Qe6Rjo5YXsfNkPfjX6n9i4&amp;callback=initMap">
+
+            </script>
+<section id="contact-form">
+            <div id="container">
+                <div id="demo">
+
+                    <p class="padabove"> Contact us here </p>
+                    <a href="http://www.rprojectonline.com/"><img src="http://rprojectonline.com/images/RPlogo.png" class="dim"></a>
+                </div>
+
+                <div id="contact-wrap">
+                    <div id="contact-area">
+
+                        <form method="post" action="contactengine.php">
+
+
+                            <input type="text" name="Name" id="Name" placeholder="Full Name" />
+
+                            <input type="text" name="City" id="City" placeholder="City" />
+
+                            <input type="text" name="Email" id="Email" placeholder="Email" />
+
+                            <input type="text" name="Phone" id="Phone" placeholder="Phone" />
+
+                            <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message"></textarea>
+
+                            <input type="submit" name="submit" value="Submit" class="submit-button" />
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+</section>
+
+
+
+        </div>
+
+        <footer>
+            <a href="index.html"><img src="images/logo.png" height="155px"></a>
+            <div class="footer-nav">
+                <table>
+                    <tr>
+                        <td><a href="index.html" class="footer-link">home</a></td>
+                        <td><a href="student-artwork.html" class="footer-link">artwork</a></td>
+                        <td><a href="news-events.html" class="footer-link">news & events</a></td>
+                        <td><a href="courses.html" class="footer-link">courses</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="footer-link">&nbsp;</a></td>
+                        <td><a href="alumni.html" class="footer-link">alumni</a></td>
+                        <td><a href="news-events.html" class="footer-link">calender</a></td>
+                        <td><a href="contact.html" class="footer-link">contact</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="footer-link">&nbsp;</a></td>
+                        <td><a class="footer-link">&nbsp;</a></td>
+                        <td><a class="footer-link">&nbsp;</a></td>
+                        <td><a href="info.html" class="footer-link">info</a></td>
+                    </tr>
+                </table>
+            </div>
+            <ul class="icons">
+                <li class="list-icons"><a href="http://www.facebook.com"><img src="images/facebook-icon.png" height="50px"></a></li>
+                <li class="list-icons"><a href="http://www.twitter.com"><img src="images/twitter-icon.png" height="50px"></a></li>
+                <li class="list-icons"><a href="http://www.linkedin.com"><img src="images/linkedin-icon.png" height="50px"></a></li>
+                <li class="list-icons"><a href="http://www.instagram.com"><img src="images/instagram-icon.png" height="50px"></a></li>
+            </ul>
+        </footer>
+        <div class="copyright">
+            <p> &#169; Center of Advanced Visual Studies 2017</p>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+#demo {
+  width:300px;
+  font-family: 'Lato', calibri, arial;
+  font-size:30px;
+  font-weight:300;
+  padding:10px;
+  float:left;
+  margin-left:40px;
+}
+
+#contact-wrap {
+  font-family: 'Lato', calibri, arial;
+  font-size:16px;
+  font-weight:300;
+  width: 402px;
+  color:#fff;
+	overflow:auto; 
+float:left;
+}
+
+#contact-area {
+  margin-left:3px;
+	width: 342px;
+
+  padding:20px;
+  
+  textarea {
+	height: 150px;
+  background-color:transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid black;
+  border-right: 1px solid transparent;
+  text-decoration: underline;
+  }
+  label {
+    float: left;
+    text-align: left;
+    margin-right: 16px;
+    width: 100px;
+    padding-top: 5px;
+    font-family: 'Lato', calibri, arial;
+    font-size:18px;
+    font-weight:300;
+  }
+}
+  
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 342px;
+  font-family: 'Lato', calibri, arial;
+  font-size:14px;
+  font-weight:300;
+  color:black;
+      background-color:transparent;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid black;
+      border-right: 1px solid transparent;
+  
+  margin-bottom:15px;
+}
+
+
+
+#contact-area textarea:focus, #contact-area input:focus {
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid black;
+      border-right: 1px solid transparent;
+}
+
+#contact-area input.submit-button {
+  font-family: 'Lato', calibri, arial;
+  font-size:12px;
+  font-weight:300;
+  text-transform:uppercase;
+	width: 100px;
+	float: left;
+  background-color:transparent;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  
+    	-moz-transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	-ms-transition:all 0.1s ease-in-out;
+	transition:all 0.1s ease-in-out;
+}
+
+#contact-area input.submit-button:hover {
+
+  color:lightslategray;
+  background-color:#333;
+
+
+}
+
+
+
+::-webkit-input-placeholder {
+  color: black;
+
+  font-size:14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color:black; 
+
+  font-size:14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color:black;
+
+  font-size:14px;
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+
+  font-size:14px;
+}
+
+.contact-info{
+    display: flex;
+    width:100%;
+}
+
+.contact-info ul{
+   width: 33.33%
+}
