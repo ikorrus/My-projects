@@ -1,0 +1,110 @@
+.body-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.body-background{
+    background-color: white;
+    width: 100%;
+    padding-top: 50px;
+}
+
+p{
+    margin: 0;
+    padding: 10px 0px;
+}
+
+h2{
+    font-size: 50pt;
+    margin: 0;
+}
+
+hr{
+    width: 60%;
+    height: 2px;
+    background-color: #333;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.course-div1{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    font-size: 30pt;
+    transition: 0.3s;
+}
+
+.course-div2{
+    border-radius: 5px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #c33764;
+    background: -webkit-linear-gradient(to right, #c33764, #1d2671);
+    background: linear-gradient(to right, #c33764, #1d2671);
+    font-size: 30pt;
+    transition: 0.3s;
+}
+
+.course-div3{
+    border-radius: 5px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #666666);
+    background: linear-gradient(to right, #000000, #666666);
+    font-size: 30pt;
+    transition: 0.3s;
+}
+
+.course-div4{
+    border-radius: 5px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #30e8bf;
+    background: -webkit-linear-gradient(to right, #30e8bf, #ff8235);
+    background: linear-gradient(to right, #30e8bf, #ff8235);
+    font-size: 30pt;
+    transition: 0.3s;
+}
+
+.course-text{
+    color: white;
+}
+
+.course-div1:hover {
+    font-size: 31pt;
+    transition: 0.3s;
+}
+
+.course-div2:hover {
+    font-size: 31pt;
+    transition: 0.3s;
+}
+
+.course-div3:hover {
+    font-size: 31pt;
+    transition: 0.3s;
+}
+
+.course-div4:hover {
+    font-size: 31pt;
+    transition: 0.3s;
+}

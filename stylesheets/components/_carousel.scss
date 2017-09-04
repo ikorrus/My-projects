@@ -1,0 +1,28 @@
+.banner {
+    margin: 60px 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.cycle-slideshow {
+    position: relative;
+}
+
+.cycle-pager { 
+    text-align: center; 
+    width: 100%; 
+    z-index: 500; 
+    position: absolute; 
+    bottom: 10px; 
+    overflow: hidden;
+}
+
+.cycle-pager span { 
+    font-family: arial; font-size: 70px; width: 24px; height: 24px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+
+.cycle-pager span.cycle-pager-active { color: #306fb7;}
+.cycle-pager > * { cursor: pointer;}

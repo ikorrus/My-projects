@@ -1,0 +1,43 @@
+.students {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  .student {
+    background-color: white;
+    border-top: 2px solid #ababab;
+    max-width: 1240px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+    &:last-child {
+    border-bottom: 2px solid #ababab;
+}
+}
+}
+.profile-image{
+    width: 50%;
+}
+.student-sam .column, .student .column{
+    vertical-align: middle;
+}
+.student p, .student-sam p{
+    padding-right: 150px;
+}
+
+.student-detail{
+    padding: 30px 0;
+    border: none;
+}
+
+.profile-art{
+    width: 31.7%;
+    padding-right: 30.3px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.profile-art:last-child{
+    padding-right: 0;
+}
+@media screen and (max-width: 1240px){
+  
+}
